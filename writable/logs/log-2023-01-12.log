@@ -1,0 +1,12 @@
+CRITICAL - 2023-01-12 16:18:19 --> Undefined variable: title_meta
+#0 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\app\Views\approvisionnement.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yebdi\\...', 5, Array)
+#1 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\View\View.php(210): include('C:\\Users\\yebdi\\...')
+#2 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\Common.php(1089): CodeIgniter\View\View->render('approvisionneme...', Array, true)
+#4 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\app\Controllers\Home.php(75): view('approvisionneme...', Array)
+#5 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\CodeIgniter.php(832): App\Controllers\Home->approvisionnement()
+#6 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yebdi\\...')
+#10 {main}

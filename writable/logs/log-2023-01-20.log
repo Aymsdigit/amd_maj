@@ -1,0 +1,15 @@
+ERROR - 2023-01-20 14:02:16 --> Error connecting to the database: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+
+CRITICAL - 2023-01-20 14:02:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+
+#0 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#3 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\app\Controllers\Home.php(21): CodeIgniter\Model->countAllResults()
+#4 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yebdi\OneDrive\Documents\devWeb\amd_maj\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yebdi\\...')
+#9 {main}
